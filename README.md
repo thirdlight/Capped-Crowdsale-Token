@@ -7,8 +7,8 @@ This program creates a Solidity contract for a basic capped crowd sale token. Th
 ### Dependencies
 * Truffle v5.0.7
 * Solidity 0.5.0
-* OpenZeppelin 2.1.3+<br />
-Note: in the full effort of transparency, some aspects of the OpenZeppelin contracts have been modified: 
+* OpenZeppelin 2.1.3+<br /><br />
+Note: in the full effort of transparency, some aspects of the OpenZeppelin contracts have been modified: <br />
 *  function `preValidatePurchase()` are no longer view functions. 
 *  `_forwardFunds()` will no longer be called in `buyTokens()` function. 
 *  The `require()` statement in SafeMath's `sub()` is no longer called. 

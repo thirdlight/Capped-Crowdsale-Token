@@ -17,8 +17,5 @@ contract ExampleToken is ERC20, ERC20Mintable, ERC20Detailed, Ownable {
     ERC20Detailed(_name, _symbol, _decimals)
     public {
     }
-    function getBalance() public view returns (uint256) {
-        return address(this).balance;
-  }
     
 }

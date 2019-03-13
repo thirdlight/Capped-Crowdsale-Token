@@ -40,11 +40,10 @@ With that as input:
 1. `sale.buyTokens(account1, {value : new web3.utils.BN(web3.utils.toWei("2.5", 'ether')) , from : account1})` 
 1. `sale.buyTokens(account1, {value : new web3.utils.BN(web3.utils.toWei("15", 'ether')) , from : account1})`
 1. `sale.getTokensLeft()`
-1. `sale.buyTokens(account1, {value : new web3.utils.BN(web3.utils.toWei("25", 'ether')) , from : account1})`
-
+1. `sale.buyTokens(account1, {value : new web3.utils.BN(web3.utils.toWei("25", 'ether')) , from : account1})` <br />
 
 Gets this output:
-1. 
+1. <br /> 
 ```
 { Error: Returned error: VM Exception while processing transaction: revert trying to buy too little or too much ether -- Reason given: trying to buy too little or too much ether.
     at XMLHttpRequest._onHttpResponseEnd (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2-cookies\dist\xml-http-request.js:318:1)
@@ -55,8 +54,8 @@ Gets this output:
     at C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\web3-eth\~\web3-core-requestmanager\src\index.js:140:1
     at Object.ErrorResponse (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\web3-eth\~\web3-core-helpers\src\errors.js:29:1) reason: 'trying to buy too little or too much ether' }
 ```
-1. 
-```
+<br />
+2.<br /> ```
 { tx:
    '0xb16031b41f23c59712f1beeb800343d4c3105a5c23be56d23901f42cf9b09509',
   receipt:
@@ -82,9 +81,10 @@ Gets this output:
       '0x4bd7b15d1a617e0e7bc6d821349ab6cbd91087ec0435057c2f26e1d2fc8bb057',
      rawLogs: [ [Object] ] },
   logs: [] } ```
-1. `<BN: 13966f5f49fef0d00000>`
-1. 
-```
+<br />
+3. `<BN: cdd439bfcb494780000>` which is 135 ether's worth of tokens.
+<br />
+4. <br />  ```
 { Error: Returned error: VM Exception while processing transaction: revert already invested in the crowdsale -- Reason given: already invested in the crowdsale.
     at XMLHttpRequest._onHttpResponseEnd (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2-cookies\dist\xml-http-request.js:318:1)
     at XMLHttpRequest._setReadyState (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2-cookies\dist\xml-http-request.js:208:1)

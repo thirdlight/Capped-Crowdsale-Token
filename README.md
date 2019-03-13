@@ -36,7 +36,7 @@ Enter this in order:
 1. `ExampleTokenCrowdsale.deployed(450, account0, token.address , new web3.utils.BN(web3.utils.toWei("150", 'ether'))).then((t) => {sale = t;})` -- sale = ExampleTokenCrowdsale
 1. `token.transferOwnership(sale.address)` -- transfers ownership of tokens to ExampleTokenCrowdsale
 1. `sale.cap().then(c => {token.mint(sale.address, c);})` -- mints as many tokens as the sale.address is given at start<br />
-With that as input:
+<br />With that as input:
 
 1. `sale.buyTokens(account1, {value : new web3.utils.BN(web3.utils.toWei("2.5", 'ether')) , from : account1})`
 1. `sale.buyTokens(account1, {value : new web3.utils.BN(web3.utils.toWei("15", 'ether')) , from : account1})`

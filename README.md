@@ -19,7 +19,8 @@ Homework 3 for Blockchain and Applications.<br /> This program creates a Solidit
 * `web3.eth.getAccounts().then(function(result){account0=result[0];})`
 * 
 
-1. ```Returned error: VM Exception while processing transaction: revert
+```
+Returned error: VM Exception while processing transaction: revert 
     at XMLHttpRequest._onHttpResponseEnd (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2-cookies\dist\xml-http-request.js:318:1)
     at XMLHttpRequest._setReadyState (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2-cookies\dist\xml-http-request.js:208:1)
     at XMLHttpRequestEventTarget.dispatchEvent (C:\Users\nicol\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2-cookies\dist\xml-http-request-event-target.js:34:1)
